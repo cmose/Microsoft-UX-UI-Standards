@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Microsoft UX Standards Intelligence Center — design standards, research, accessibility, AI guidance, and governance."
+    />
+    <title>Microsoft UX Standards Intelligence Center</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="brand-name">Microsoft <strong>Standards</strong></span>
+        </div>
+        <div class="workspace-label">WORKSPACE</div>
+        <nav class="nav-list">
+          <a class="nav-item active" href="#overview"><span class="nav-icon">⌂</span>Overview</a>
+          <a class="nav-item" href="#intelligence-feed"><span class="nav-icon">≡</span>Intelligence feed <b class="nav-count">12</b></a>
+          <a class="nav-item" href="#pattern-library"><span class="nav-icon">◇</span>Pattern library</a>
+          <a class="nav-item" href="#research"><span class="nav-icon">⌕</span>Research &amp; usability</a>
+          <a class="nav-item" href="#accessibility"><span class="nav-icon">◉</span>Accessibility command</a>
+          <a class="nav-item" href="#ai-hub"><span class="nav-icon">✦</span>Copilot &amp; Agent hub</a>
+        </nav>
+        <div class="workspace-label">GOVERNANCE</div>
+        <nav class="nav-list">
+          <a class="nav-item" href="#responsive"><span class="nav-icon">▣</span>Responsive watchlist</a>
+          <a class="nav-item" href="#navigation"><span class="nav-icon">↔</span>Navigation hub</a>
+          <a class="nav-item" href="#actions"><span class="nav-icon">✓</span>Action center <b class="nav-count urgent">4</b></a>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="sync-status"><span class="status-dot"></span><span><strong>Sources synced</strong><small>29 sources · 8 min ago</small></span></div>
+          <button class="profile-button" aria-label="Open profile"><span>CM</span><strong>Design governance</strong><span>⌄</span></button>
+        </div>
+      </aside>
+
+      <main class="main-content" id="overview">
+        <header class="topbar">
+          <button class="mobile-menu" aria-label="Open navigation">☰</button>
+          <div class="breadcrumbs"><span>Design governance</span><span>/</span><strong>Intelligence center</strong></div>
+          <div class="topbar-actions">
+            <button class="icon-button" aria-label="Help">?</button>
+            <button class="icon-button notification-button" aria-label="Notifications">♧<span></span></button>
+            <button class="avatar" aria-label="Open account menu">CM</button>
+          </div>
+        </header>
+
+        <div class="page-wrap">
+          <section class="page-heading">
+            <div>
+              <div class="eyebrow"><span class="live-dot"></span>LIVE INTELLIGENCE · SEPTEMBER 29, 2026</div>
+              <h1>Microsoft UX Standards<br /><span>Intelligence Center</span></h1>
+              <p>Design standards <b>·</b> Research <b>·</b> Accessibility <b>·</b> AI guidance <b>·</b> Governance</p>
+            </div>
+            <div class="heading-actions">
+              <button class="button secondary">↗ Share view</button>
+              <button class="button primary" id="refresh-button">↻ Refresh intelligence</button>
+            </div>
+          </section>
+
+          <section class="kpi-grid" aria-label="Standards activity summary">
+            <article class="kpi-card accent-blue"><div class="kpi-top"><span>New standards</span><span class="kpi-icon">✦</span></div><strong>24</strong><div class="kpi-bottom"><span class="trend positive">↗ 18%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-purple"><div class="kpi-top"><span>Updated standards</span><span class="kpi-icon">↻</span></div><strong>37</strong><div class="kpi-bottom"><span class="trend positive">↗ 12%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-red"><div class="kpi-top"><span>Accessibility changes</span><span class="kpi-icon">◉</span></div><strong>8</strong><div class="kpi-bottom"><span class="trend critical">↑ 3 critical</span><span>action required</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-teal"><div class="kpi-top"><span>Fluent updates</span><span class="kpi-icon">◇</span></div><strong>16</strong><div class="kpi-bottom"><span class="trend positive">↗ 6%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-orange"><div class="kpi-top"><span>Copilot UX updates</span><span class="kpi-icon">✧</span></div><strong>11</strong><div class="kpi-bottom"><span class="trend positive">↗ 22%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-pink"><div class="kpi-top"><span>Agent UX updates</span><span class="kpi-icon">⌁</span></div><strong>7</strong><div class="kpi-bottom"><span class="trend positive">↗ 40%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-green"><div class="kpi-top"><span>Research findings</span><span class="kpi-icon">⌕</span></div><strong>19</strong><div class="kpi-bottom"><span class="trend positive">↗ 9%</span><span>vs. last month</span></div><small>Updated 8 min ago</small></article>
+            <article class="kpi-card accent-gray"><div class="kpi-top"><span>Deprecated patterns</span><span class="kpi-icon">⊘</span></div><strong>3</strong><div class="kpi-bottom"><span class="trend critical">↑ 2 urgent</span><span>migration needed</span></div><small>Updated 8 min ago</small></article>
+          </section>
+
+          <section class="section-grid score-grid">
+            <article class="panel health-panel">
+              <div class="panel-heading"><div><span class="section-kicker">EXECUTIVE SCORECARD</span><h2>UX health score</h2></div><button class="more-button" aria-label="More score options">···</button></div>
+              <div class="health-body">
+                <div class="health-ring"><div><strong>84</strong><span>/ 100</span><small>Healthy</small></div></div>
+                <div class="health-legend"><div><span class="legend-dot blue"></span><span>Standards compliance</span><strong>91%</strong></div><div><span class="legend-dot green"></span><span>Accessibility readiness</span><strong>88%</strong></div><div><span class="legend-dot purple"></span><span>AI experience readiness</span><strong>76%</strong></div><div><span class="legend-dot orange"></span><span>Responsive readiness</span><strong>82%</strong></div></div>
+              </div>
+              <div class="score-footer"><span>Design debt risk</span><strong class="risk-medium">Medium</strong><span class="score-change">↘ 4% this month</span></div>
+            </article>
+            <article class="panel activity-panel">
+              <div class="panel-heading"><div><span class="section-kicker">STANDARDS VELOCITY</span><h2>Activity over time</h2></div><select aria-label="Activity range"><option>Last 30 days</option><option>Last 90 days</option></select></div>
+              <div class="chart-wrap"><div class="y-axis"><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span></div><div class="chart"><div class="gridline g1"></div><div class="gridline g2"></div><div class="gridline g3"></div><div class="gridline g4"></div><svg viewBox="0 0 600 170" preserveAspectRatio="none" aria-label="Standards activity line chart"><defs><linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6b5ce7" stop-opacity=".24"/><stop offset="1" stop-color="#6b5ce7" stop-opacity="0"/></linearGradient></defs><path class="area" d="M0,140 C35,136 35,111 70,119 S104,104 135,112 S174,80 203,94 S244,78 270,88 S307,64 337,72 S375,46 405,64 S440,35 470,45 S505,21 535,35 S570,18 600,25 L600,170 L0,170Z"/><path class="line purple-line" d="M0,140 C35,136 35,111 70,119 S104,104 135,112 S174,80 203,94 S244,78 270,88 S307,64 337,72 S375,46 405,64 S440,35 470,45 S505,21 535,35 S570,18 600,25"/><path class="line blue-line" d="M0,151 C35,143 38,133 70,140 S105,130 135,135 S168,112 203,121 S240,112 270,118 S305,97 337,106 S374,87 405,98 S442,73 470,84 S505,65 535,71 S573,48 600,59"/></svg><div class="x-axis"><span>Sep 1</span><span>Sep 8</span><span>Sep 15</span><span>Sep 22</span><span>Sep 29</span></div></div></div><div class="chart-legend"><span><i class="purple-dot"></i>All updates <strong>+18%</strong></span><span><i class="blue-dot"></i>Critical updates <strong>+7%</strong></span></div>
+            </article>
+          </section>
+
+          <section class="panel feed-panel" id="intelligence-feed">
+            <div class="panel-heading feed-heading"><div><span class="section-kicker">PRIORITIZED INTELLIGENCE</span><h2>Design intelligence feed</h2><p>What changed, why it matters, and what your team should do next.</p></div><div class="feed-controls"><label class="search-box">⌕<input id="feed-search" type="search" placeholder="Search updates" /></label><select id="priority-filter" aria-label="Filter by priority"><option value="all">All priorities</option><option value="critical">Critical</option><option value="high">High</option><option value="medium">Medium</option></select><button class="button secondary">View all ↗</button></div></div>
+            <div class="table-wrap"><table id="feed-table"><thead><tr><th>Priority</th><th>Category</th><th>Area</th><th>Summary</th><th>Required action</th><th>Owner</th><th>Due date</th><th>Impact</th></tr></thead><tbody>
+              <tr data-priority="critical"><td><span class="priority critical">Critical</span></td><td><span class="category-icon accessibility">◉</span> Accessibility</td><td>Forms</td><td><strong>MAS 1.4 keyboard guidance updated</strong><small>Microsoft Accessibility Standards · 2h ago</small></td><td>Review form focus order</td><td>UX team</td><td><span class="due urgent">Immediate</span></td><td><span class="impact high">High</span></td></tr>
+              <tr data-priority="high"><td><span class="priority high">High</span></td><td><span class="category-icon agent">✦</span> Agent UX</td><td>Human-in-the-loop</td><td><strong>New confirmation pattern for autonomous actions</strong><small>Agent UX Guidelines · 5h ago</small></td><td>Map approval checkpoints</td><td>AI design</td><td><span class="due">Oct 04</span></td><td><span class="impact high">High</span></td></tr>
+              <tr data-priority="high"><td><span class="priority high">High</span></td><td><span class="category-icon fluent">◇</span> Fluent update</td><td>Navigation</td><td><strong>NavigationView responsive behavior revised</strong><small>Fluent UI React v9 · 1d ago</small></td><td>Check compact states</td><td>Engineering</td><td><span class="due">Oct 07</span></td><td><span class="impact medium">Medium</span></td></tr>
+              <tr data-priority="medium"><td><span class="priority medium">Medium</span></td><td><span class="category-icon research">⌕</span> Research</td><td>Discoverability</td><td><strong>Study: Admins scan metadata before actions</strong><small>Microsoft Research · 2d ago</small></td><td>Reorder resource details</td><td>Research</td><td><span class="due">Oct 12</span></td><td><span class="impact medium">Medium</span></td></tr>
+            </tbody></table></div>
+          </section>
+
+          <section class="section-grid two-col" id="pattern-library">
+            <article class="panel library-panel"><div class="panel-heading"><div><span class="section-kicker">SYSTEM EVOLUTION</span><h2>Pattern library center</h2></div><button class="button tertiary">Open library ↗</button></div><div class="library-tabs" role="tablist"><button class="tab active" data-tab="new">New &amp; updated <b>12</b></button><button class="tab" data-tab="deprecated">Deprecated <b class="red">3</b></button></div><div class="pattern-list"><div class="pattern-item"><span class="pattern-preview command-preview">⋯ <span>Command bar</span> <b>＋</b></span><div><strong>CommandBar overflow</strong><p>Keep primary actions visible as viewport narrows.</p><span class="tag teal">Fluent UI v9</span><span class="tag">Migration ready</span></div><button class="chevron">›</button></div><div class="pattern-item"><span class="pattern-preview agent-preview">✦ <span>Ask Copilot</span></span><div><strong>Agent handoff</strong><p>Make ownership and escalation visible to users.</p><span class="tag purple">Agent guidance</span><span class="tag">New</span></div><button class="chevron">›</button></div><div class="pattern-item"><span class="pattern-preview nav-preview">☰ <span>Resources</span></span><div><strong>Responsive navigation</strong><p>Use a persistent rail at large breakpoints.</p><span class="tag blue">Coherence</span><span class="tag">Updated</span></div><button class="chevron">›</button></div></div></article>
+            <article class="panel research-panel" id="research"><div class="panel-heading"><div><span class="section-kicker">EVIDENCE-LED DESIGN</span><h2>Research &amp; usability</h2></div><button class="more-button">···</button></div><div class="research-highlight"><span class="research-badge">NEW STUDY</span><h3>Trust is built through visible agent boundaries</h3><p>Enterprise admins preferred agents that explain their planned actions before execution.</p><div class="research-meta"><span><strong>87%</strong> confidence</span><span><strong>1,240</strong> participants</span><span><strong>3</strong> affected areas</span></div><button class="text-button">Read synthesis <span>→</span></button></div><div class="study-row"><span class="study-icon orange">◉</span><div><strong>Keyboard navigation in data grids</strong><small>Accessibility study · High confidence</small></div><span class="study-arrow">→</span></div><div class="study-row"><span class="study-icon blue">⌕</span><div><strong>Search and filter discoverability</strong><small>Usability study · Medium confidence</small></div><span class="study-arrow">→</span></div></article>
+          </section>
+
+          <section class="section-grid three-col">
+            <article class="panel command-panel" id="accessibility"><div class="panel-heading"><div><span class="section-kicker">REQUIRED ACTION</span><h2>Accessibility command</h2></div><span class="alert-badge">3 critical</span></div><div class="command-score"><div class="mini-ring"><strong>88</strong><small>% ready</small></div><div><strong>MAS readiness</strong><p>2 standards need attention</p><div class="progress"><i style="width:88%"></i></div></div></div><ul class="compact-list"><li><span class="list-status red"></span><span>Keyboard interaction updates</span><b>Review</b></li><li><span class="list-status red"></span><span>Focus management</span><b>Review</b></li><li><span class="list-status green"></span><span>Contrast guidance</span><b>Ready</b></li></ul><button class="full-button">Open accessibility actions →</button></article>
+            <article class="panel ai-panel" id="ai-hub"><div class="panel-heading"><div><span class="section-kicker">TRUSTED AI EXPERIENCES</span><h2>Copilot &amp; Agent hub</h2></div><span class="ai-spark">✦</span></div><div class="ai-callout"><strong>Most important update</strong><p>New transparency requirements for agent plans, permissions, and escalation.</p><span class="tag purple">Agent UX</span><span class="tag orange">Trust &amp; safety</span></div><div class="ai-metrics"><div><span>Agent readiness</span><strong>76%</strong></div><div><span>Human oversight</span><strong>92%</strong></div></div><button class="full-button">Review AI guidance →</button></article>
+            <article class="panel responsive-panel" id="responsive"><div class="panel-heading"><div><span class="section-kicker">LAYOUT QUALITY</span><h2>Responsive watchlist</h2></div><button class="more-button">···</button></div><div class="device-row"><div class="device"><span class="device-icon">▭</span><small>Desktop</small><strong class="good">92</strong></div><div class="device"><span class="device-icon">▯</span><small>Tablet</small><strong class="warning">81</strong></div><div class="device"><span class="device-icon">▯</span><small>Mobile</small><strong class="warning">78</strong></div><div class="device"><span class="device-icon">▤</span><small>Large screen</small><strong class="good">89</strong></div></div><div class="watch-item"><span class="list-status yellow"></span><span>New breakpoint guidance</span><b>2 flags</b></div><div class="watch-item"><span class="list-status red"></span><span>Layout risks</span><b>4 flags</b></div></article>
+          </section>
+
+          <section class="section-grid two-col">
+            <article class="panel navigation-panel" id="navigation"><div class="panel-heading"><div><span class="section-kicker">DISCOVERABILITY &amp; FLOW</span><h2>Navigation governance hub</h2></div><button class="button tertiary">View guidance ↗</button></div><div class="nav-health"><div class="nav-health-item"><span class="nav-health-icon blue">↔</span><div><strong>Left navigation</strong><small>2 updates · Review needed</small></div><span class="status-pill warning">Review</span></div><div class="nav-health-item"><span class="nav-health-icon purple">⌕</span><div><strong>Search patterns</strong><small>Aligned to current guidance</small></div><span class="status-pill ready">Ready</span></div><div class="nav-health-item"><span class="nav-health-icon orange">⋯</span><div><strong>Command surfaces</strong><small>1 migration recommended</small></div><span class="status-pill warning">Review</span></div></div></article>
+            <article class="panel heatmap-panel"><div class="panel-heading"><div><span class="section-kicker">ENTERPRISE PRIORITIES</span><h2>UX impact heatmap</h2></div><span class="updated">Updated today</span></div><div class="heatmap"><div class="heat-label">Area</div><div class="heat-label center">Impact</div><div class="heat-label center">Urgency</div><span>Navigation</span><i class="heat high"></i><i class="heat medium"></i><span>Forms</span><i class="heat high"></i><i class="heat high"></i><span>Data grids</span><i class="heat medium"></i><i class="heat low"></i><span>Approvals</span><i class="heat high"></i><i class="heat high"></i><span>Agents</span><i class="heat high"></i><i class="heat high"></i><span>Accessibility</span><i class="heat high"></i><i class="heat high"></i></div><div class="heat-legend"><span><i class="heat high"></i>High</span><span><i class="heat medium"></i>Medium</span><span><i class="heat low"></i>Low</span></div></article>
+          </section>
+
+          <section class="panel action-panel" id="actions"><div class="panel-heading"><div><span class="section-kicker">DO THE WORK</span><h2>Action center</h2><p>Prioritized next steps for every role.</p></div><div class="action-summary"><span class="status-dot"></span>4 actions due this week <button class="button tertiary">View all actions ↗</button></div></div><div class="action-grid"><div class="action-card critical"><div class="action-card-top"><span class="priority critical">Critical</span><span>Accessibility specialists</span></div><strong>Audit form focus order against MAS 1.4</strong><p>Ensure keyboard users can complete administrative workflows without losing context.</p><div class="action-card-bottom"><span>Due immediately</span><button>Open action →</button></div></div><div class="action-card high"><div class="action-card-top"><span class="priority high">High</span><span>Product designers</span></div><strong>Map human approval checkpoints</strong><p>Make agent plans, permissions, and escalation paths visible before execution.</p><div class="action-card-bottom"><span>Due Oct 04</span><button>Open action →</button></div></div><div class="action-card medium"><div class="action-card-top"><span class="priority medium">Medium</span><span>Engineers</span></div><strong>Validate responsive NavigationView states</strong><p>Test compact and large-screen behavior with current Fluent UI React v9 guidance.</p><div class="action-card-bottom"><span>Due Oct 07</span><button>Open action →</button></div></div></div></section>
+
+          <section class="panel executive-panel"><div class="panel-heading"><div><span class="section-kicker">LEADERSHIP BRIEF</span><h2>Executive summary</h2></div><span class="updated">September 2026</span></div><div class="brief-grid"><div><span class="brief-number">01</span><strong>Prioritize agent transparency</strong><p>Require plan previews and clear human checkpoints in enterprise AI workflows.</p></div><div><span class="brief-number">02</span><strong>Close the MAS keyboard gap</strong><p>Three critical changes affect forms and data-rich experiences this month.</p></div><div><span class="brief-number">03</span><strong>Fund responsive remediation</strong><p>Tablet and mobile readiness trail desktop by 11 points across the portfolio.</p></div><div class="recommendation"><span class="section-kicker">LEADERSHIP RECOMMENDATION</span><strong>Make standards part of the release gate.</strong><p>Assign owners, track migration risk, and review critical guidance in every design quality council.</p></div></div></section>
+          <footer><span>Microsoft UX Standards Intelligence Center</span><span>Sources synced 8 minutes ago · <a href="#intelligence-feed">View source health</a></span></footer>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
